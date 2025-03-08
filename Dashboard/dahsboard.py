@@ -4,12 +4,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data Bike Hour
-file_Hour = "D:\\DBS\\Bike Sharing Dataset\\Dashboard\\bike_hour.csv"
-df_hour = pd.read_csv(file_Hour)
+df_hour = pd.read_csv('bike_hour.csv')
 
 # Load data Bike Day
-file_Day = "D:\\DBS\\Bike Sharing Dataset\\Dashboard\\bike_day.csv"
-df_day = pd.read_csv(file_Day)
+df_day = pd.read_csv('bike_day.csv')
 
 # Sidebar menu
 st.sidebar.title("Menu")
