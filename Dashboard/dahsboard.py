@@ -6,8 +6,8 @@ import seaborn as sns
 # Load Data
 @st.cache_data
 def load_data():
-    df_hour = pd.read_csv("bike_hour.csv")
-    df_day = pd.read_csv("bike_day.csv")
+    df_hour = pd.read_csv("Dashboard/bike_hour.csv")
+    df_day = pd.read_csv("Dashboard/bike_day.csv")
     return df_hour, df_day
 
 df_hour, df_day = load_data()
